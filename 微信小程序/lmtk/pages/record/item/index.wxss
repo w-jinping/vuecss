@@ -1,0 +1,45 @@
+.page {
+  min-height: 100%;
+  flex: 1;
+  background-color: #fbf9fe;
+  font-size: 32rpx;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.page input {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+}
+
+.section {
+  margin: 40rpx 0;
+}
+
+.section-gap {
+  padding: 0 30rpx;
+}
+
+.section-title {
+  margin-bottom: 16rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.section-gap .section-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.radio-group {
+  margin: 50rpx;
+  font-size: 25rpx;
+}
+
+.radio {
+  margin-right: 20rpx;
+}
+
+.button {
+  margin: 10rpx;
+}

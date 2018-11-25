@@ -1,0 +1,51 @@
+.navi {
+    width: 100%;
+}
+
+.add-button {
+    float: right;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 40rpx;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+
+.stamp {
+    font-size: 30rpx;
+    color: darkgray;
+    margin: 20rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 20rpx;
+    margin-bottom: 0rpx;
+    font-size: 40rpx;
+}
+
+.sign-red {
+    color: red;
+}
+
+.sign-green {
+    color: green;
+}

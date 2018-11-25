@@ -1,0 +1,101 @@
+<view class="main">
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="cenmy">
+        <view class="pci">
+          <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo='shareAgain'>授权</button> -->
+         <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        </view>
+        <view class="zit">昵称：{{userInfo.nickName}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="weui-flex">
+    <view class="weui-flex__item zit">
+  <view class="cenmy">
+      <text class="userinfo-nickname">地址：{{userInfo.country}} {{userInfo.province}}省 {{userInfo.city}}市 </text><text class="userinfo-nickname sex">性别：<text wx:if="{{userInfo.gender==1}}">男 </text><text wx:if="{{userInfo.gender==2}}">女</text> </text></view>
+    </view>
+    
+    </view>
+</view>
+
+
+
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title wes">
+      <navigator url="plugin://" class="weui-cell weui-cell_access" open-type="navigate" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="{{config.host}}/lximg/user/txsz.png" class="icoleft"></image>
+        </view>
+        <view class="weui-cell__bd">等待完善中..</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+
+      <!-- <navigator url="plugin://" open-type="navigate" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="{{config.host}}/lximg/user/dz.png" class="icoleft"></image>
+        </view>
+        <view class="weui-cell__bd">等待完善中..</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+
+      <navigator url="plugin://" open-type="navigate" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="{{config.host}}/lximg/user/yhq.png" class="icoleft"></image>
+        </view>
+        <view class="weui-cell__bd">等待完善中..</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+
+      <navigator url="plugin://" open-type="navigate" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="{{config.host}}/lximg/user/dz.png" class="icoleft"></image>
+        </view>
+        <view class="weui-cell__bd">等待完善中..</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator> -->
+
+     
+
+
+    </view>
+  </view>
+</view>
+
+
+<view class="weui-grids webj ">
+  <navigator url="" class="weui-cell weui-cell_access top1  xian" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">
+      <text class="tit">我的资料</text>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access dress"></view>
+  </navigator>
+</view>
+<!-- <view class="weui-form-preview">
+  <view class="weui-form-preview__ft">
+    <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">
+      等待完善中..</navigator>
+    <navigator class="weui-form-preview__btn  zit" hover-class="weui-form-preview__btn_active">
+     等待完善中..</navigator>
+
+  </view>
+  <view class="weui-form-preview__ft">
+    <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">  
+      等待完善中..
+    </navigator>
+    <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">
+     等待完善中..</navigator>
+  </view>
+</view> -->
+
+
+<view class='contanier' hidden='{{hasUserInfo}}' catchtouchmove='true'>
+ <view class='dialog-body'> 
+  <view class='dialog-title'>前端Web笔记 授权提示</view>
+  <view class='dres'>获取你的基本信息(昵称、头像、地址等)</view>
+  <view class='dialog-footer'>
+   <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"  class='userbutton' bindgetuserinfo='shareAgain'>授权</button>
+  </view>
+ </view>
+</view>

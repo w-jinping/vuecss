@@ -1,0 +1,56 @@
+{
+  "pages": [
+        "pages/home/index",
+    "pages/web/index",
+
+    "pages/user/index",
+    "pages/xiaohua/index",
+    "pages/kdi/index",
+    "pages/Article/index",
+    "pages/index/index",
+    "pages/game/game",
+    "pages/over/over",
+    "pages/record/index",
+    "pages/record/item/index",
+    "pages/view_1/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#606060",
+    "selectedColor": "#f7c325",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 4px 0",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/nav/home_hs.png",
+        "selectedIconPath": "/nav/home_xz.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/Article/index",
+        "iconPath": "/nav/lx_wxz.png",
+        "selectedIconPath": "/nav/lx_xz.png",
+        "text": "资料"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "/nav/wd_wxz.png",
+        "selectedIconPath": "/nav/wd_xz.png",
+        "text": "我"
+      }
+    ]
+  },
+  "plugins": {
+    "myPlugin": {
+      "version": "1.0.0",
+      "provider": "wx588b8acd7a6c0eef"
+    }
+  }
+}

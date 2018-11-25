@@ -1,0 +1,138 @@
+@import "../css/weui.wxss";
+.page__bd {
+    padding-bottom: 25rpx;
+}
+.bj{background: #f7c325; height: 30px;}
+.pic button{background-color: transparent;}
+.wes{margin-top: 25rpx;}
+.bjyh{background-color: #efb434;padding-top:12rpx;}
+.pci image{border-radius: 80rpx;}
+.ahover{background: transparent;}
+.icoleft{margin-right: 5px;vertical-align: middle;width:30px; height: 30px;}
+
+.cenmy{text-align: center;padding-bottom:6px;}
+.zit{font-size: 30rpx;padding-top: 8rpx;}
+.zit{color: #353535;}
+.weui-media-box__hd_in-appmsg {
+  margin-right: 0.8em;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin:0 auto;
+}
+.pci{text-align: center; margin-left: auto; margin-right: auto; display: table;}
+.pci button{width: 280rpx; height: 90rpx; text-align: center;}
+
+.weui-cells {
+  position: relative;
+  margin-top: 1.17647059em;
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 30rpx;
+}
+
+.weui-cells:before {
+  top: 0;
+  border-top: 0rpx solid #fff;
+}
+.weui-cells:after {
+  bottom: 0;
+  border-bottom: 0rpx solid #fff;
+}
+
+
+.topico{margin-right: 10rpx;vertical-align: middle;width:130rpx; height: 130rpx;}
+.leftico{margin-right: 10rpx;vertical-align: middle;width:60rpx; height: 60rpx;}
+
+.jifen{margin-top: 25rpx;  margin-bottom: 13rpx; background-color: #fff;}
+.cenmy{text-align: center;padding-bottom:6px;}
+.xiti{border-left: 1px solid #dedede;height:60rpx;margin-top: 20rpx;}
+.webj{background-color: #fff;}
+.jfei{color: transparent;}
+.tit{font-weight: bold;color: #f1b20f; }
+.xian{border-left: 4px solid #f1b20f; padding-top: 3px; padding-bottom: 3px;}
+.top1{margin-top: 4px; margin-bottom: 4px;}
+.szi{color: #fabe00; font-size: 30rpx;}
+
+
+.dw{color: #fff; font-size: 28rpx; position: absolute; top: 15rpx; left: 15rpx;}
+.icodw{margin-right: 5px;vertical-align: middle;width:39rpx; height: 37rpx;}
+.yjin{ z-index: 100;  background: #fff;box-shadow:0px 0px 7px 1px #CCC;
+margin-right: 30rpx; margin-left: 30rpx; border-radius: 10rpx; margin-bottom:7px;}
+
+
+ .main{background-color: #fed545; padding-top: 0.4em; padding-bottom: 33px;}
+
+.cenmy{text-align: center;padding-bottom:6px;}
+.pci image{border-radius: 80rpx; border:2px solid #fff;}
+.yjin{margin-top: -33px; background: #fff;box-shadow:0px 0px 7px 1px #CCC;
+margin-right: 30rpx; margin-left: 30rpx; border-radius: 10rpx; padding-top: 17rpx; padding-bottom: 17rpx;margin-bottom:7px;
+}
+.yonjin{ border-right: 1px solid #d6d6d6;}
+
+.weui-grid__label {
+  margin-top: 0px;
+  display: block;
+  text-align: center;
+  font-size: 30rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.sex{padding-left: 29rpx}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+
+
+
+
+/* 登录授权 */
+.contanier{
+ position: fixed;
+  left: 0px;    
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  z-index: 1111;
+  background: #333; 
+  opacity: .9;
+}
+.dialog-body{
+  width:300px;
+  z-index: 5555;
+  opacity: 1;
+  margin: 35vh auto;
+  background: #fff;
+  border:1px solid #000;
+  padding:15px;
+  text-align:center;
+  border-radius: 10rpx;
+}
+.dres{ padding-top:10rpx; font-size: 28rpx; color: #333; letter-spacing: 2rpx; margin-bottom: 30rpx;}
+.dialog-title{
+  font-size: 38rpx;
+  color: #000;
+  border-bottom: 1px solid #c2baba;
+  margin-bottom: 15rpx;
+  padding-bottom: 10rpx;
+}
+.dialog-content{
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+
+}
+.userbutton{
+  background: #ff6503;
+  color: #fff;
+}
+.dialog-footer{margin-bottom: 30rpx;}
+
+
+ 

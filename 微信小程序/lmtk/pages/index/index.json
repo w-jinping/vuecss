@@ -1,0 +1,8 @@
+{
+        "backgroundColor": "#fff",
+        "enablePullDownRefresh": true,
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#f3a51e",
+        "navigationBarTitleText": "识色小游戏",
+        "navigationBarTextStyle": "white"
+}

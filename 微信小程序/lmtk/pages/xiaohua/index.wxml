@@ -1,0 +1,10 @@
+<chunwen />
+
+<tuwen />
+
+<chunwena />
+
+<chunwenb />
+<view class='sharenv' catchtap="btn">
+<button><text class='iconfont icon-refresh c'></text>点我换一批</button>
+</view>

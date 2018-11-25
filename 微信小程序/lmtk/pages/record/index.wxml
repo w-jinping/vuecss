@@ -1,0 +1,18 @@
+<view class="container list">
+  <view class="navi">
+    <button class="add-button" size="mini" type="primary" bindtap="addItem">添加收支</button>
+  </view>
+  <block wx:for="{{items}}" wx:key="*this">
+    <view class="item" data-title="{{item.title}}">
+      <view class="text">
+        <text class="title">{{item.title}}</text>
+        <view class="stamp">
+          <text wx:if="{{item.cate == '-'}}" class="sign-red">{{item.cate}} {{item.account}}</text>
+          <text wx:else class="sign-green">{{item.cate}} {{item.account}}</text>
+          <text wx:if="{{item.date}}" >{{item.date}}</text>
+          <text wx:else>2016-1-1</text>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

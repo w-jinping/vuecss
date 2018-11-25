@@ -1,0 +1,8 @@
+{
+  "backgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#f3a51e",
+  "navigationBarTitleText": "笑话大全",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,62 @@
+
+
+
+
+
+
+<view class="page__bd ">
+  <view class="weui-grids webj">
+    <navigator url="plugin://"  open-type="navigate" class="weui-cell weui-cell_access top1 xian" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">
+        <text class="tit">小游戏</text></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access dress">更多</view>
+    </navigator>
+  </view>
+
+  <view class="page__bd">
+    <view class="weui-grids webj">
+      <block wx:for='{{cardlist}}' wx:key="{{index}}">
+        <navigator url="{{item.href}}"  open-type="navigate" class="weui-grid" hover-class="weui-grid_active">
+          <view class="weui-grid__label bti">{{item.title}}</view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+
+
+<view class="weui-grids webj ">
+    <navigator url="" class="weui-cell weui-cell_access top1 xian" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">
+        <text class="tit">生活服务</text></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access dress"></view>
+    </navigator>
+  </view>
+  <view class="weui-form-preview">
+    <view class="weui-form-preview__ft">
+      <navigator url="/pages/record/index" open-type="navigate" class="weui-form-preview__btn  zit" hover-class="weui-form-preview__btn_active">
+      日常开销小账本</navigator>
+      <navigator url="/pages/xiaohua/index" class="weui-form-preview__btn  zit" hover-class="weui-form-preview__btn_active">
+       笑话大全</navigator>
+        <navigator url="/pages/web/index" class="weui-form-preview__btn  zit" hover-class="weui-form-preview__btn_active">
+       藏头诗生成</navigator>
+       
+      
+
+    </view>
+    <view class="weui-form-preview__ft">
+      <!-- <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">
+        等待完善中..</navigator>
+      <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">
+       等待完善中..</navigator>
+      <navigator class="weui-form-preview__btn weui-form-preview__btn_default zit" hover-class="weui-form-preview__btn_active">
+      等待完善中..</navigator> -->
+
+    </view>
+  </view>
+
+
+
+
+
+
+</view>

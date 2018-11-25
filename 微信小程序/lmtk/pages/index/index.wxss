@@ -1,0 +1,50 @@
+/**index.wxss**/
+
+.hd{
+  color: #fff;
+  margin-top: 200rpx;
+  font-size: 50rpx;
+  text-shadow: 1px 1px 1px #AB3C3C;
+}
+
+.bd{
+  color: #f9bdbd;
+  margin-top: 100rpx;
+  font-size: 36rpx;
+}
+
+
+
+
+
+page {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  box-sizing: border-box;
+}
+
+.layout{
+  background: #F06060;
+  color: #fff;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.g-btn{
+  background: #FCAD26;
+  margin: 0 auto;
+  color: #fff;
+  width: 60%;
+  margin-top: 520rpx;
+}
+
+.g-btn-active{
+  background: #f3a51f;
+}

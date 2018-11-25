@@ -1,0 +1,5 @@
+@import "../css/weui.wxss";
+page{width: 96%; margin-right: auto; margin-left: auto;}
+.center{text-align: center; font-weight: bold; margin-bottom: 20rpx;}
+.bt{font-weight: bold;padding-bottom: 20rpx;overflow: hidden;}
+.pd{padding-left: 30rpx;}

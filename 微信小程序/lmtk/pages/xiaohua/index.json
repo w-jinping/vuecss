@@ -1,0 +1,14 @@
+{
+  "backgroundColor": "#fff",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#f3a51e",
+  "navigationBarTitleText": "笑话大全",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "tuwen": "plugin://myPlugin/tuwen",
+    "chunwen": "plugin://myPlugin/chunwen",
+    "chunwena": "plugin://myPlugin/chunwen1",
+    "chunwenb": "plugin://myPlugin/chunwen2"
+  }
+}

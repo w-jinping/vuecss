@@ -1,0 +1,94 @@
+@import "../css/weui.wxss";
+.tibti {
+  width: 100%;
+  /*给text设成块级元素*/
+  display: block;
+  font-size: 30rpx;
+  color: #45B6F7;
+  /*设置文字溢出部分为...*/
+  margin-top: 0.03rem;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-height: 40rpx;
+
+  -webkit-box-orient: vertical;
+}
+
+.weui-cells {
+  position: relative;
+  margin-top: 0.5em;
+  background-color: #fff;
+  line-height: 1.41176471;
+  font-size: 30rpx;
+}
+
+.t1 {
+  color: #666;
+  padding-left: 10rpx;
+}
+.pd{padding-bottom: 15rpx; padding-top: 15rpx; border-bottom: 1px dotted #DEDEDE;}
+.weui-flex{padding-top: 15rpx;}
+.ltx {
+  padding-top: 10rpx;
+  overflow: hidden;
+  /* font-size: 25rpx;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  bottom: 38rpx;
+  overflow: hidden;
+  flex-direction: row;
+  float: left;
+  color: #333; */
+}
+.time{padding-left: 40rpx;}
+
+.rtx {
+  display: flex;
+  position: absolute;
+  right: 10rpx;
+  bottom: 20rpx;
+  flex-direction: row;
+  text-align: center;
+}
+
+.rtx {
+  font-size: 29rpx;
+
+  float: right;
+}
+
+
+
+
+
+
+
+
+page {
+  min-height: 100%;
+}
+.content {
+  min-height: 100%;
+}
+.list-bottom {
+  height: 100rpx;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.no-more-goods {
+  margin-top: 150rpx;
+  margin-bottom: 50rpx;
+  background-color: greenyellow;
+}
+.load-more-goods {
+ margin: 0 auto;
+  font-size: 30rpx;
+  width: 380rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.jshu{text-align: center;font-weight: bold; font-size: 28rpx; color: #0868b4}

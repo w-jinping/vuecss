@@ -1,0 +1,19 @@
+<view class="goods-box" wx:for="{{cardlist}}" wx:key="{{index}}" data-id="{{item.id}}">
+  <navigator url="{{item.url}}" open-type="navigate" class="" hover-class="weui-grid_active">
+    <view class="page__bd_spacing pd">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="tibti">{{item.title}}</view></view>
+        </view>
+        <view class="weui-flex">
+            <view class="weui-flex__item">  
+            <text>用户：</text>
+            <text class="t1">{{item.user}}</text>
+            </view>
+            <view class="weui-flex__item"> 
+            <text class='time'>日期：</text>
+            <text class="t1">{{item.time}}</text>
+            </view>
+        </view>
+</view>
+  </navigator>
+</view>
