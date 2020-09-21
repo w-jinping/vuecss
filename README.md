@@ -45,8 +45,15 @@ www.vuecss.com www.btcmiy.com
 
 
 
+
+
 【个人微信资料】
 
 微信小程序搜索：前端Web笔记
 
 微信公众号：IT_web
+
+
+【打赏作者】
+![Image text](../Reward/wenxin.jpg)
+![Image text](../Reward/zhifubao.jpg)
