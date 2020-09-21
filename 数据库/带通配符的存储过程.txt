@@ -1,0 +1,34 @@
+使用带有通配符参数的简单过程
+以下存储过程只从视图中返回指定的一些雇员（提供名和姓）及其职务和部门名称。此存储过程模式与所传递的参数相匹配；或者，如果未提供参数，则使用预设的默认值（以字母 D 打头的姓）。
+
+USE AdventureWorks;
+GO
+IF OBJECT_ID ( 'HumanResources.usp_GetEmployees2', 'P' ) IS NOT NULL 
+    DROP PROCEDURE HumanResources.usp_GetEmployees2;
+GO
+CREATE PROCEDURE HumanResources.usp_GetEmployees2 
+    @lastname varchar(40) = 'D%', 
+    @firstname varchar(20) = '%'
+AS 
+    SELECT LastName, FirstName, JobTitle, Department
+    FROM HumanResources.vEmployeeDepartment
+    WHERE FirstName LIKE @firstname 
+        AND LastName LIKE @lastname;
+GO
+ 
+
+usp_GetEmployees2 存储过程可以按多种组合执行。下面只显示了几个组合：
+
+EXECUTE HumanResources.usp_GetEmployees2;
+-- Or
+EXECUTE HumanResources.usp_GetEmployees2 'Wi%';
+-- Or
+EXECUTE HumanResources.usp_GetEmployees2 @firstname = '%';
+-- Or
+EXECUTE HumanResources.usp_GetEmployees2 '[CK]ars[OE]n';
+-- Or
+EXECUTE HumanResources.usp_GetEmployees2 'Hesse', 'Stefen';
+-- Or
+EXECUTE HumanResources.usp_GetEmployees2 'H%', 'S%';
+
+ 

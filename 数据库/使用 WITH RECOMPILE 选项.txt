@@ -1,0 +1,21 @@
+使用 WITH RECOMPILE 选项
+如果为过程提供的参数不是典型的参数，并且新的执行计划不应被缓存或存储在内存中，则 WITH RECOMPILE 子句会很有用。
+
+USE AdventureWorks;
+GO
+IF OBJECT_ID ( 'dbo.usp_product_by_vendor', 'P' ) IS NOT NULL 
+    DROP PROCEDURE dbo.usp_product_by_vendor;
+GO
+CREATE PROCEDURE dbo.usp_product_by_vendor @name varchar(30) = '%'
+WITH RECOMPILE
+AS
+    SELECT v.Name AS 'Vendor name', p.Name AS 'Product name'
+    FROM Purchasing.Vendor v 
+    JOIN Purchasing.ProductVendor pv 
+      ON v.VendorID = pv.VendorID 
+    JOIN Production.Product p 
+      ON pv.ProductID = p.ProductID
+    WHERE v.Name LIKE @name;
+GO
+
+ 

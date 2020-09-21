@@ -1,0 +1,1 @@
+select * from A where No in(select No from B where Age=23)

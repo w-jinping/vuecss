@@ -1,0 +1,36 @@
+使用 OUTPUT 游标参数
+OUTPUT 游标参数用来将存储过程的局部游标传递回执行调用的批处理、存储过程或触发器。
+
+首先，创建以下过程：在 titles 表上声明并打开一个游标：
+USE AdventureWorks;
+GO
+IF OBJECT_ID ( 'dbo.currency_cursor', 'P' ) IS NOT NULL
+    DROP PROCEDURE dbo.currency_cursor;
+GO
+CREATE PROCEDURE dbo.currency_cursor 
+    @currency_cursor CURSOR VARYING OUTPUT
+AS
+    SET @currency_cursor = CURSOR
+    FORWARD_ONLY STATIC FOR
+      SELECT CurrencyCode, Name
+      FROM Sales.Currency;
+    OPEN @currency_cursor;
+GO
+
+ 
+
+接下来，运行以下批处理：声明一个局部游标变量，执行上述过程以将游标赋值给局部变量，然后从该游标提取行。
+
+USE AdventureWorks;
+GO
+DECLARE @MyCursor CURSOR;
+EXEC dbo.currency_cursor @currency_cursor = @MyCursor OUTPUT;
+WHILE (@@FETCH_STATUS = 0)
+BEGIN;
+     FETCH NEXT FROM @MyCursor;
+END;
+CLOSE @MyCursor;
+DEALLOCATE @MyCursor;
+GO
+
+ 
