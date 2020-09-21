@@ -55,5 +55,5 @@ www.vuecss.com www.btcmiy.com
 
 
 ¡¾´òÉÍ×÷Õß¡¿
-![avatar](/Reward/wenxin.jpg)
-![avatar](/Reward/zhifubao.jpg)
+![](./Reward/wenxin.jpg)
+![](./Reward/zhifubao.jpg)
