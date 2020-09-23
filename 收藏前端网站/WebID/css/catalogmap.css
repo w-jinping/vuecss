@@ -1,0 +1,10 @@
+.main{ margin:0 auto; width: 94.3%; margin-left: auto; margin-right: auto;  padding: 8px; border-top: 2px solid #3c8dbc; border-bottom: 1px solid #dedede;border-right: 1px solid #dedede;border-left: 1px solid #dedede; margin-bottom: 14px; }
+.mainc{ margin:0 auto; width: 95%; margin-left: auto; margin-right: auto;  padding: 8px;border-top: 2px solid #3c8dbc; border-bottom: 1px solid #dedede;border-right: 1px solid #dedede;border-left: 1px solid #dedede; margin-bottom: 21px; margin-top: 3px; }
+.fenlie{color:#3b639f!important;  font-family: "microsoft yahei"; font-size: 14px; border-bottom:1px solid #dedede; padding-bottom: 5px; margin-bottom: 8px;}
+.mulu{ overflow: hidden;}
+.mulu ul{list-style: none; margin: 0; padding: 0; }
+.mulu ul li{ float: left; padding-left: 0.2%;padding-right: 1.2%; line-height: 24px;}
+.mulu ul li a{ padding:3px;text-decoration: none; color: #666;font-size: 13px;font-family: "microsoft yahei";}
+.mulu ul li a:hover{text-decoration: none; color: #fff;background: #3c8dbc; font-size: 13px; padding: 3px; font-family: "microsoft yahei";}
+.mian-container{ width: 95%; margin-left: auto; margin-right: auto;}
+.mulu ul li i{position: absolute; width: 8px; height: 8px; background: #dd4b39; border-radius: 50px;margin-top: -1px;margin-left: -7px;}

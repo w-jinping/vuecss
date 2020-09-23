@@ -1,0 +1,33 @@
+.pcbmange{  font-family: "microsoft yahei"; font-size: 20px; margin-top: 20px; width: 97%; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+/**意向客户**/
+.gdu{margin-top: 20px; clear: both;}
+fieldset {border: none;border-top: 1px solid #eee}
+fieldset legend {margin-left: 10px;padding: 0 5px;font-size: 14px;color: #666;font-weight: 600}
+
+/***文本框**/
+.layui-form-item{margin-bottom: 9px;clear: both; overflow: hidden;}
+.layui-inline{ margin-bottom: 5px;margin-right: 10px;vertical-align: middle; }
+.layui-form-label {font-size: 12px; float: left;display: block; width: 107px;font-weight: 400;line-height: 7px;
+text-align: right;padding: 9px 4px; color: #666;}
+.layui-input-inline{float: left;width: 190px;margin-right: 10px;display:inline-block;vertical-align: middle;    }
+.layui-input{display: block;width: 100%;padding-left: 10px;height: 24.4px;line-height: 24.4px; border:1px solid #d3d3d3; border-radius: 2px;}
+.layui-input:focus{outline:none;display: block;width: 100%;padding-left: 10px;height: 24.4px;line-height: 24.4px; border:1px solid #bababa; border-radius: 2px;border-color: #bababa;-moz-box-shadow: 0 0 3px 0 #D3D3D3;-webkit-box-shadow: 0 0 3px 0 #D3D3D3;box-shadow: 0 0 3px 0 #D3D3D3;}
+
+.layui-select{display: block;width: 203px;padding-left: 2px;height: 29.4px;line-height: 29.4px; border:1px solid #d3d3d3; border-radius: 2px;}
+.layui-select:focus{outline:none;display: block;width: 203px;padding-left: 2px;height: 29.4px;line-height: 29.4px; border:1px solid #bababa; border-radius: 2px;border-color: #bababa;-moz-box-shadow: 0 0 3px 0 #D3D3D3;-webkit-box-shadow: 0 0 3px 0 #D3D3D3;box-shadow: 0 0 3px 0 #D3D3D3;}
+.layui-input-inline textarea{outline:none;display: block;width: 403px; height:200px;padding-left: 2px;height: 29.4px;line-height: 29.4px; border:1px solid #d3d3d3; border-radius: 2px; resize: none;}
+
+/**按钮样式*/
+.abtn{ background: #1e9fff; border-radius: 3px; padding-left: 12px; padding-right: 12px; padding-bottom: 4px; padding-top: 4px; border:1px solid #1e9fff; color: #fff; font-family: "microsoft yahei"; font-size: 13px; cursor: pointer; letter-spacing: 2px;}
+.abtn:hover{ background: #60bafd; border-radius: 3px; padding-left: 12px; padding-right: 12px; padding-bottom: 4px; padding-top: 4px; border:1px solid #1e9fff; color: #fff; font-family: "microsoft yahei"; font-size: 13px; cursor: pointer; letter-spacing: 2px;}
+
+.btsubimt{margin-left: 20px; text-align: center;}
+
+/**checked**/
+.check_css3 span {position: relative; top:3px}
+.check_css3 .input_check {position: absolute;visibility: hidden;vertical-align: middle;}
+.check_css3 .input_check+label {display: inline-block;width: 16px;height: 16px;border: 1px solid #d3d3d3;} 
+.check_css3 .input_check:checked+label:after {content: "";position: absolute;left: 2px;bottom: 12px;width: 9px;height: 4px; border: 2px solid #1e9fff;border-top-color: transparent;border-right-color: transparent; -ms-transform: rotate(-60deg); -moz-transform: rotate(-60deg); -webkit-transform: rotate(-60deg); transform: rotate(-45deg);}
+
+
+/**按钮**/

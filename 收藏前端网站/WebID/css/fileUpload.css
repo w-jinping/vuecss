@@ -1,0 +1,14 @@
+.container{ margin: auto; width: 880px; margin-left: auto; margin-left: auto;}
+.abtn{ background: #1e9fff; border-radius: 3px; padding-left: 12px; padding-right: 12px; padding-bottom: 7px; padding-top: 7px; border:1px solid #1e9fff; color: #fff; font-family: "微软雅黑"; font-size: 13px; cursor: pointer; letter-spacing: 2px;}
+.abtn:hover{ background: #60bafd; border-radius: 3px; padding-left: 12px; padding-right: 12px; padding-bottom: 7px; padding-top: 7px; border:1px solid #1e9fff; color: #fff; font-family: "微软雅黑"; font-size: 13px; cursor: pointer; letter-spacing: 2px;}
+.filetxt{font-family: "微软雅黑"; color: #666666; line-height: 20px; margin-bottom: 10px; margin-top: 10px; margin-left: 14%; font-size: 14px; }
+.filetxt span{ color: #0066ff;}
+.gw{ margin-top: 30px;}
+.fu{ margin-top: 18px;}
+.bd{ margin-bottom: 15px;}
+.filecam{font-family: "microsoft yahei"; color: #666666; line-height: 20px; margin-bottom: 10px; margin-top: 10px; font-size: 13px; }
+
+.layui-form-label { margin-right: 5px;}
+.layui-form-item {margin-bottom: 15px !important;clear: both; overflow: hidden;}
+
+
