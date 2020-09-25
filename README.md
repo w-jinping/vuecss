@@ -1,41 +1,41 @@
-¡¾¸öÈË¼¼ÄÜ¡¿
+ã€ä¸ªäººæŠ€èƒ½ã€‘
 
-1£º¸öÈË¼¼Êõ£ºHTML5£¬CSS3£¬jQuery£¬javaScript£»
+1ï¼šä¸ªäººæŠ€æœ¯ï¼šHTML5ï¼ŒCSS3ï¼ŒjQueryï¼ŒjavaScriptï¼›
 
-2£º¿ò¼Ü£ºEasyUI£»
+2ï¼šæ¡†æ¶ï¼šEasyUIï¼›
 
-3£ºUI¿ò¼Ü£ºBootstrap£»weui£»
+3ï¼šUIæ¡†æ¶ï¼šBootstrapï¼›weuiï¼›
 
-4£º¿ª·¢¹¤¾ß£ºHBuilder¡¢eclipse¡¢plsqldev¡¢SVN¡¢Dreamweaver£¬Visual Studio code£»
+4ï¼šå¼€å‘å·¥å…·ï¼šHBuilderã€eclipseã€plsqldevã€SVNã€Dreamweaverï¼ŒVisual Studio codeï¼›
 
-5£ºÊı¾İ¿â£ºOracle£¬mySql;
+5ï¼šæ•°æ®åº“ï¼šOracleï¼ŒmySql;
 
-6£º¹¤¾ß£ºWinSCP¡¢Xshell 5£»
+6ï¼šå·¥å…·ï¼šWinSCPã€Xshell 5ï¼›
 
-7£ºÉÃ³¤ÒÆ¶¯¶Ë£»PC¶Ë¾²Ì¬Ò³ÃæÖÆ×÷£»Î¢ĞÅĞ¡³ÌĞòÇ°¶ËÒ³ÃæºÍ½Ó¿Úµ÷ÓÃ£»
+7ï¼šæ“…é•¿ç§»åŠ¨ç«¯ï¼›PCç«¯é™æ€é¡µé¢åˆ¶ä½œï¼›å¾®ä¿¡å°ç¨‹åºå‰ç«¯é¡µé¢å’Œæ¥å£è°ƒç”¨ï¼›
 
-8£ºÄ¿Ç°ÒªÑ§Ï°¼¼Êõ£ºvue£¬ES6£¬node.js, angularjs£¬TypeScript£¬react
+8ï¼šç›®å‰è¦å­¦ä¹ æŠ€æœ¯ï¼švueï¼ŒES6ï¼Œnode.js, angularjsï¼ŒTypeScriptï¼Œreact
 
-9£ºÄ¿Ç°Ö÷¹¥¼¼Êõ£ºvue£¬ES6£¬TypeScript£¬javaScript£»
-
-
-
-
-
-¡¾ÁªÏµ·½Ê½¡¿ 
-
-1£ºÎ¢ĞÅ£ºwjp_jinping;
-
-3£ºÓÊ¼ş£ºwjp_jinping@163.com;
-
-2£ºQQ:224173533
+9ï¼šç›®å‰ä¸»æ”»æŠ€æœ¯ï¼švueï¼ŒES6ï¼ŒTypeScriptï¼ŒjavaScriptï¼›
 
 
 
 
 
+ã€è”ç³»æ–¹å¼ã€‘ 
 
-¡¾¸öÈËÍøÕ¾¡¿
+1ï¼šå¾®ä¿¡ï¼šwjp_jinping;
+
+3ï¼šé‚®ä»¶ï¼šwjp_jinping@163.com;
+
+2ï¼šQQ:224173533
+
+
+
+
+
+
+ã€ä¸ªäººç½‘ç«™ã€‘
 
 www.vuecss.com www.btcmiy.com
 
@@ -47,13 +47,13 @@ www.vuecss.com www.btcmiy.com
 
 
 
-¡¾¸öÈËÎ¢ĞÅ×ÊÁÏ¡¿
+ã€ä¸ªäººå¾®ä¿¡èµ„æ–™ã€‘
 
-Î¢ĞÅĞ¡³ÌĞòËÑË÷£ºÇ°¶ËWeb±Ê¼Ç
+å¾®ä¿¡å°ç¨‹åºæœç´¢ï¼šå‰ç«¯Webç¬”è®°
 
-Î¢ĞÅ¹«ÖÚºÅ£ºIT_web
+å¾®ä¿¡å…¬ä¼—å·ï¼šIT_web
 
 
-¡¾´òÉÍ×÷Õß¡¿
-![](./Reward/wenxin.jpg)
-![](./Reward/zhifubao.jpg)
+ã€æ‰“èµä½œè€…ã€‘
+![](./Reward/wenxin.jpg){:height="100" width="100"}
+![](./Reward/zhifubao.jpg){:height="100" width="100"}
