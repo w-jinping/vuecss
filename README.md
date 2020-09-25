@@ -55,5 +55,5 @@ www.vuecss.com www.btcmiy.com
 
 
 【打赏作者】
-![](./Reward/wenxin.jpg){:height="100" width="100"}
-![](./Reward/zhifubao.jpg){:height="100" width="100"}
+![](./Reward/wenxin.jpg =100x100)
+![](./Reward/zhifubao.jpg =100x100)
