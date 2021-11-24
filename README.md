@@ -22,22 +22,6 @@
 
 
 
-【联系方式】 
-
-1：微信：wjp_jinping;
-
-3：邮件：wjp_jinping@163.com;
-
-2：QQ:224173533
-
-
-
-
-
-
-【个人网站】
-
-www.vuecss.com www.btcmiy.com
 
 
 
@@ -47,11 +31,13 @@ www.vuecss.com www.btcmiy.com
 
 
 
-【个人微信资料】
 
-微信小程序搜索：前端Web笔记
 
-微信公众号：IT_web
+
+
+
+
+
 
 
 
